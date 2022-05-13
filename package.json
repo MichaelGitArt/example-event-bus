@@ -1,0 +1,19 @@
+{
+  "name": "ev-bus",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@gitart/eslint-config-ts": "^0.0.13",
+    "js-event-bus": "^1.1.1"
+  }
+}
